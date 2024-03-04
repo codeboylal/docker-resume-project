@@ -5,7 +5,7 @@ RUN apt update -y && \
 
 RUN rm -rf /var/www/html/
 
-RUN git clone https://github.com/codeboylal/lal-personal-website.git /var/www/html/
+RUN git clone https://github.com/codeboylal/docker-resume-project.git /var/www/html/
 
 EXPOSE 80
 
